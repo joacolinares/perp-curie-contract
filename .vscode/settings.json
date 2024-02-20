@@ -71,4 +71,9 @@
         "Liquidatable"
     ],
     "solidity.defaultCompiler": "localNodeModule",
+    "[javascript][typescript][typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
 }

@@ -52,7 +52,8 @@
     "@perp/perp-oracle-contract": "0.6.7",
     "@perp/voting-escrow": "1.2.0",
     "@uniswap/v3-core": "https://github.com/Uniswap/uniswap-v3-core/tarball/v1.0.0",
-    "@uniswap/v3-periphery": "1.0.1"
+    "@uniswap/v3-periphery": "1.0.1",
+    "dotenv": "^16.4.4"
   },
   "devDependencies": {
     "@eth-optimism/smock": "1.1.4",
@@ -62,7 +63,7 @@
     "@ethereumjs/tx": "3.2.0",
     "@ethereumjs/vm": "5.4.0",
     "@nomiclabs/ethereumjs-vm": "4.2.2",
-    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "2.0.1",
     "@openzeppelin/hardhat-upgrades": "1.10.0",
     "@typechain/ethers-v5": "7.0.0",
@@ -76,7 +77,7 @@
     "chai": "4.3.4",
     "eslint-config-prettier": "8.5.0",
     "ethereum-waffle": "3.4.0",
-    "ethers": "5.6.1",
+    "ethers": "^5.6.1",
     "hardhat": "2.3.0",
     "hardhat-contract-sizer": "2.5.1",
     "hardhat-dependency-compiler": "1.1.1",

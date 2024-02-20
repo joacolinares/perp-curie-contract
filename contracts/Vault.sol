@@ -135,14 +135,14 @@ contract Vault is IVault, ReentrancyGuardUpgradeable, OwnerPausable, BaseRelayRe
         override
         whenNotPaused
         nonReentrant
-        onlySettlementOrCollateralToken(token)
+    //  onlySettlementOrCollateralToken(token)
     {
         // input requirement checks:
         //   token: here
         //   amount: _deposit
 
         address from = _msgSender();
-        _deposit(from, from, token, amount);
+        //  _deposit(from, from, token, amount);
     }
 
     /// @inheritdoc IVault
