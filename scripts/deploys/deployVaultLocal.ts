@@ -49,7 +49,7 @@ const deploy = async () => {
         } else {
             console.log("La dirección", deployedContract2.address, "no es un contrato.")
         }
-
+        d
         console.log("Vault contract deployed at address:", deployedContract.address)
         console.log("Token contract deployed at address:", exampleToken.address)
 
